@@ -20,9 +20,14 @@ To use this script, run the following command:
 - `BASE_URL`: The URL where the `.nc` files are located.
 - `[DEST_DIR]`: The directory where the downloaded files will be stored (optional). If not specified, files will be saved in the current directory.
 
-### Example:
+### Example 1:
 ```
 ./getAllNC.sh http://example.com/nc_files /home/user/ncfiles
+```
+
+### Example 2:
+```
+./getAllNC.sh https://www.ncei.noaa.gov/data/land-normalized-difference-vegetation-index/access/2000/ 2000
 ```
 
 ## Description
