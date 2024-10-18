@@ -7,6 +7,7 @@ This is a simple Bash script designed to download `.nc` (NetCDF) files from a sp
 
 Make sure `axel` is installed on your system. You can install it using the following command:
 ```
+sudo apt install curl
 sudo apt install axel
 ```
 
